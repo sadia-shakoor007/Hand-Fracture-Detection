@@ -162,7 +162,7 @@ if uploaded_file is not None:
 st.markdown("---")
 st.markdown("""
 <center>
-🖐️ Developed by <b>Sadia Shakoor</b><br>
+Developed by <b>Sadia Shakoor</b><br>
 Powered by <b>YOLOv8</b> & <b>Streamlit</b>
 </center>
 """, unsafe_allow_html=True)
