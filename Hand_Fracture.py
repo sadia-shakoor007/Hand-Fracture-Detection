@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # ------------------------- #
 # ⚙️ Page Configuration
 # ------------------------- #
-st.set_page_config(page_title="Hand Fracture Detection", layout="wide")
+st.set_page_config(page_title="🏥 Hand Fracture Detection", layout="wide")
 
 # ------------------------- #
 # 🌈 Custom Styling
@@ -38,7 +38,7 @@ st.markdown("""
 # ------------------------- #
 # 🧠 Sidebar Info
 # ------------------------- #
-st.sidebar.title("About the App")
+st.sidebar.title("🤖 About the App")
 st.sidebar.info("""
 This app uses an **AI-powered YOLOv8 model** to detect **hand fractures** from X-ray images.  
 Upload an image and let the model locate and highlight fracture regions instantly.
@@ -63,10 +63,14 @@ def load_model():
 model = load_model()
 
 # ------------------------- #
-# 🖐️ App Title
+# 🖐️ App Title with Hospital Icon
 # ------------------------- #
-st.markdown("<h1>Hand Fracture Detection</h1>", unsafe_allow_html=True)
-st.markdown("<h3>Upload a hand X-ray and let AI detect fracture areas.</h3>", unsafe_allow_html=True)
+st.markdown("<h1>🏥 Hand Fracture Detection</h1>", unsafe_allow_html=True)
+
+# ------------------------- #
+# Heading with X-ray + Hospital Icons
+# ------------------------- #
+st.markdown("<h3>🩻🩺 Upload a hand X-ray and let AI detect fracture areas.</h3>", unsafe_allow_html=True)
 
 # ------------------------- #
 # 📤 Upload Section
