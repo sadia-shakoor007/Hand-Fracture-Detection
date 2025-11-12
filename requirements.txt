@@ -1,4 +1,3 @@
---upgrade
 streamlit
 ultralytics
 pillow
